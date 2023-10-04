@@ -1,0 +1,606 @@
+body {
+background-color: rgb(82, 73, 73);;    
+font-family: Roboto, sans-serif;  
+display: none;
+}
+ .first-section{
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgb(82, 73, 73);
+    background-size: cover;
+
+}
+
+ .content{
+    width: fit-content;
+    height: auto;
+ }
+
+.nav-link{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    color: red;
+    font-size: 1.2rem;
+    width: 102%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+     margin-top: -2%;
+    margin-right: -3%;
+
+    
+
+}
+.com-name{
+    font-size: 2rem;
+    width: 700px;
+    height: 90px;
+    margin-bottom: 5px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    margin-left: 20%;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    
+
+}
+
+.name{
+    width: fit-content;
+    height: fit-content;
+}
+
+.myimg{
+    width: 150px;
+    height: 130px;
+}
+
+
+
+.links{
+    display: flex;
+    text-decoration: none;
+     margin-top: 40px;
+}
+
+.welcome{
+    text-decoration: none;
+}
+li{
+    margin-right: 50px;
+    text-decoration: none;
+}
+a {
+
+ padding: 10px;
+ border-radius: 3px;
+ background: black;
+color: white;
+text-decoration: none;
+margin-left: 30px;
+transition:color 0.2s ease-in-out, paddig 0.3s ease-in-out, border-radius 0.3s ease-in-out, 0.3s ease-in-out, background-color 1s ease-in-out, opacity 0.5s ease-in-out, text-transform 0.5s ease-in-out, text-decoration 0.5s ease-in-out, padding-right 0.5s ease-in-out;
+}
+
+
+a:hover{
+    color: white;
+    padding: 25px;
+    border-radius: 10px, 0, 30px;
+    padding-right: 10px;
+    background-color: cyan;
+    opacity: 1;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.about{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+    height: 400px;
+    
+    margin-left: 4%;
+    
+    padding: 30px;
+    
+    
+}
+p{
+    background:transparent;
+    color: black;
+    font-size: 1.5rem;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 48%;
+    text-transform: uppercase;
+
+}
+
+.engineer5{
+    width: 120%;
+    height: 110%;
+    margin-left: 130%;
+    margin-top: -160px;
+    }
+.description{
+ display: block;  
+ padding: 2px;
+ width: 40%;
+ height: 60%; 
+ margin-right: -2px;
+ 
+
+}
+
+
+.our-servicediv {
+     
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+    height: 450px;
+    
+    margin-left: 4%;
+    
+    padding: 30px;
+}
+
+.service-body {
+    margin-left: -10px;
+    width: 46%;
+    height: 100%;
+}
+
+
+.service-type{
+    color: rgb(24, 75, 75);
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+
+.engineer2 {
+    width: 500px;
+    height: 330px;
+   
+    margin-left: 116%;
+    margin-top: -210px;
+    
+}
+
+
+.work1-img {
+    width: 500px;
+    height: 390px;
+}
+
+.third-section{
+    
+}
+
+.our-works {
+
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+    height: 500px;
+    
+    margin-left: 4%;
+    
+    padding: 30px;
+    
+}
+
+.imagework1 {
+margin-left: -48%;
+
+}
+
+.imagework3 {
+    margift: 58%;
+    margin-top: -92.5%;
+    display: none;
+}
+
+.imagework4 {
+    margin-left: 58%;
+    display: none;
+}
+
+.write-work1 {
+margin-left:68%;
+margin-top: -15%;
+width: auto;
+text-transform: capitalize;
+font-size: 1.4rem;
+color: rgb(109, 92, 92);
+}
+
+
+.plan { 
+    font-size: 1rem;
+    text-transform: lowercase;
+    color: rgb(41, 33, 33);
+}
+
+
+.logo {
+    width:80px;
+    height: 50px;
+}
+
+
+
+botton { width: 100px;
+height: 50px;
+margin-top: 700px;}
+
+
+
+.imagework2{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .first-section{
+        height: auto;
+        width: auto;
+        
+        
+        background-color: rgb(82, 73, 73);
+        background-size: cover;
+    
+    }
+
+    .nav-link{
+        font-family: Roboto, sans-serif;
+        display: none ;        
+        background-color: whitesmoke;
+        color: red;
+        font-size: 1rem;
+        width: 200px; 
+        position: fixed;
+        height: 450px;
+        padding-bottom: ;
+        margin-left: -30px;
+        margin-top: 0;
+        
+     }
+
+    .closeimg{ margin-left: ;
+               width:38px ;
+               height: auto;
+               cursor: pointer;
+               
+                   
+    }
+    .close{
+        height: 40px;
+        width: 40px;
+        margin-left: ;
+        margin-top: 100px;
+        text-decoration: none;
+        color: transparent;
+        cursor: pointer;
+        
+        margin-left: 10%;
+    }
+     
+    .menudiv{
+        position: fixed;
+        background-color: black;
+        opacity: 0.5;
+        width:100%;
+        margin-top: -10px;
+        height: 60px;
+        margin-left: -10px;
+    }
+     .menu{  
+        background-color: transparent;
+        
+        
+        margin-top: 15px;
+        margin-left: 260px;
+        width: 40px;
+        
+       
+     }
+
+      .links{display: grid;
+        text-decoration: none;
+         margin-top: -90px;
+         margin-left: -20px;
+        }  
+
+      li{
+        margin-top: 50px;
+        margin-left: -20px;
+        
+      }
+      
+      a{
+        color: aqua;
+        padding: 15px;
+      }
+
+     
+      .com-name{
+        font-size: 0.8rem;
+        overflow: hidden;
+        width: 330px;
+        height: 350px;
+        margin-bottom: 0px;
+        background-image: url(enginer2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding: 0px;
+        margin-left: -10px;
+        margin-right: ;
+        margin-top: -10px;
+        margin-bottom: 0%;
+        color: black;
+        text-transform: uppercase;
+        border-radius: 0;
+        
+
+        
+        
+    
+    }
+    body{
+        background-color: blue;
+    }
+   
+    .name{
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        width: 130px;
+        height: 10px;
+        float: right;
+        position: absolute;
+        right: 0;
+        color: white;
+        margin-top: 100px;
+        padding-right: 30px;
+        display: flex;
+        font-size: 1.5rem;
+        
+    }
+    
+    .myimg{
+        width: 50px;
+        height:40px;
+        margin-left: -38%;
+        margin-top: 10px;
+        position: fixed;
+        
+        float: right;
+        
+    }
+
+ 
+    .about{
+        margin-top: 30px;
+        
+        width:  400px;
+        background-color: red
+        height: 800px;
+        
+        margin-left: ;
+        
+        
+        
+    }
+
+    .our-servicediv {
+     
+        margin-top: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin-left: -20px;
+        background-color: transparent;
+        height: 600px;
+           
+        
+        
+    
+    }
+    
+    .service-body {
+        
+        width: 290px;
+        height: auto;
+        color: white;
+        font-size: 1rem;
+        margin-top: -160%;
+        margin-left: -10px;
+        background-color: transparent;
+        overflow: hidden;
+
+    }
+    
+    
+    .service-type{
+        color: white;
+        font-weight: 700;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+    
+    
+    .engineer2 {
+        width: 310px;
+        height:650px ;
+        margin-top: -140px;
+       
+        margin-left:-20px ;
+        opacity: 0.3;
+        
+        
+        
+    }
+    body{
+        background-color: black;
+    }
+
+   
+
+
+
+
+
+    p{
+        background:transparent;
+        color: white;
+        font-size: 1.5rem;
+        width: auto;
+        height: auto;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        margin-left: 0;
+        
+        text-transform: uppercase;
+    
+    }
+
+    .about{
+        margin-left: 0;
+        width: 260px;
+        
+        background-color: black;
+        
+        
+        height: 680px;
+    }
+
+    .engineer5{
+        width: 290px;
+        height: 300px;
+        float:left ;
+        margin-top: 50px;
+        margin-left: -25px;
+        }
+    .description{
+     display: block;  
+     padding: 2px;
+     width: 250px;
+     height: 400px; 
+     margin-right:0;
+     font-size: 1rem;
+     color: white;
+    
+    }
+
+
+
+
+    .our-works {
+
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        background-color: white;
+        height: 500px;
+        
+        margin-left: 4%;
+        display: none;
+        padding: 30px;
+        
+    }
+    
+    .imagework1 {
+    margin-left: 0;
+    
+    }
+    
+
+
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+
+ .footer{
+    display: flex;
+    width: auto;
+    height:auto;
+    
+ }    
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+
+}
+.newhr{
+    margin-top: -20px;
+    width: 100%;
+    
+}
+
+.call{
+    width: 60px;
+    height: 60px;
+    margin-left: 5%;
+}
+
+
+
+.contact-how{
+    margin-left: 10px;
+    color: white;
+    
+}
+
+
+
+}
+
+
